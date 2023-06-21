@@ -1,5 +1,5 @@
-import { Project } from '../models/Project.js';
-import { Task } from '../models/Task.js';
+import { Project } from '../models/project.model.js';
+import { Task } from '../models/task.model.js';
 
 const getProjects = async () => {
   return await Project.findAll();
